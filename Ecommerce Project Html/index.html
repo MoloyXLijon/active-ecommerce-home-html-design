@@ -1,0 +1,3770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Required Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Ecommerce project</title>
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- slick css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<!-- slick-theme css -->
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- venobox css -->
+    <link rel="stylesheet" href="css/venobox.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- main css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<!-- aiz-main-wrapper-start -->
+	<div class="aiz-main-wrapper d-flex flex-column">
+		<!-- Header -->
+		<!-- Top Bar -->
+		<div class="top-navbar bg-white border-bottom border-soft-secondary z-1035">
+			<div class="container">
+				<div class="row">
+					<div class="col col-lg-7">
+						<ul class="list-inline d-flex justify-content-between justify-content-lg-start mb-0">
+							<li class="list-inline-item dropdown me-3">
+								<a href="#" class="dropdown-toggle d-inline-block text-reset py-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+									<img src="image/en.png" class="me-2 ls-is-cached lazyloaded" alt="English" height="11">
+									<span class="opacity-60">English</span>
+								</a>
+								<ul class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton1">
+									<li>
+										<a href="#" data-flag="en" class="dropdown-item">
+											<img src="image/en.png" class="me-1 lazyloaded" alt="English" height="11">
+											<span class="language">English</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="list-inline-item dropdown me-3">
+								<a href="#" class="dropdown-toggle d-inline-block text-reset py-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+									<span class="opacity-60">U.S. Dollar $</span>
+								</a>
+								<ul class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton1">
+									<li>
+										<a href="#" data-flag="en" class="dropdown-item">
+											<span class="language">U.S. Dollar $</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-5 text-end d-none d-lg-block">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item me-3">
+								<a href="#" class="text-reset py-2 d-inline-block opacity-60">Login</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#" class="text-reset py-2 d-inline-block opacity-60">Registration</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Top Bar -->
+		<header class=" sticky-top  z-1020 bg-white border-bottom shadow-sm">
+			<div class="position-relative logo-bar-area z-1">
+				<div class="container">
+					<div class="d-flex align-items-center">
+						<div class="col-auto col-xl-3 ps-0 pe-3 d-flex align-items-center">
+							<a href="#" class="d-block py-20px me-3 ms-0">
+								<img src="image/logo.png" class="mw-100 h-30px h-md-40px">
+							</a>
+						</div>
+						<div class="flex-grow-1 front-header-search d-flex align-items-center bg-white">
+							<div class="position-relative flex-grow-1">
+								<form>
+									<div class="d-flex position-relative align-items-center">
+										<div class="input-group">
+											<input type="text" name="q" placeholder="I am shopping for..." autocomplete="off" class="border-0 border-lg form-control">
+											<div class="input-group-append d-none d-lg-block">
+												<button class="btn btn-primary btn-soft-primary" type="submit">
+													<i class="fa fa-search la-flip-horizontal fs-18"></i>
+												</button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="d-none d-lg-block ms-3 me-0">
+							<div id="compare">
+								<a href="#" class="d-flex align-items-center text-reset">
+									<i class="fa fa-refresh opacity-80 fs-24"></i>
+									<span class="flex-grow-1 ms-1">
+										<span class="badge badge-primary badge-inline badge-pill">0</span>
+										<span class="nav-box-text d-none d-xl-block opacity-70">Compare</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="d-none d-lg-block ms-3 me-0">
+							<div id="compare">
+								<a href="#" class="d-flex align-items-center text-reset">
+									<i class="fa fa-heart-o opacity-80 fs-24"></i>
+									<span class="flex-grow-1 ms-1">
+										<span class="badge badge-primary badge-inline badge-pill">0</span>
+										<span class="nav-box-text d-none d-xl-block opacity-70">Wishlist</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="d-none d-lg-block ms-3 me-0">
+							<div id="compare">
+								<a href="#" class="d-flex align-items-center text-reset">
+									<i class="fa fa-shopping-cart opacity-80 fs-24"></i>
+									<span class="flex-grow-1 ms-1">
+										<span class="badge badge-primary badge-inline badge-pill">0</span>
+										<span class="nav-box-text d-none d-xl-block opacity-70">Cart</span>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bg-white border-top border-gray-200 py-1">
+				<div class="container">
+					<ul class="list-inline mb-0 ps-0 mobile-hor-swipe text-center">
+						<li class="list-inline-item ms-0">
+							<a href="#" class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">Home</a>
+						</li>
+						<li class="list-inline-item ms-0">
+							<a href="#" class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">Flash Sale</a>
+						</li>
+						<li class="list-inline-item ms-0">
+							<a href="#" class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">Blogs</a>
+						</li>
+						<li class="list-inline-item ms-0">
+							<a href="#" class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">All Brands</a>
+						</li>
+						<li class="list-inline-item ms-0">
+							<a href="#" class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">All categories</a>
+						</li>
+						<li class="list-inline-item ms-0">
+							<a href="#" class="opacity-60 fs-14 px-3 py-2 d-inline-block fw-600 hov-opacity-100 text-reset">All Sellers</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- home banner start -->
+		<div class="home-banner-area mb-4 pt-3">
+			<div class="container">
+				<div class="row gutters-10 position-relative">
+					<!-- banner Categories list start -->
+					<div class="col-lg-3 position-static d-none d-lg-block">
+						<div class="aiz-category-menu bg-white rounded  shadow-sm">
+							<div class="p-3 bg-soft-primary d-none d-lg-block rounded-top all-category position-relative text-start">
+								<span class="fw-600 fs-16 me-3">Categories</span>
+								<a href="#" class="text-reset">
+									<span class="d-none d-lg-inline-block">See All ></span>
+								</a>
+							</div>
+							<ul class="list-unstyled categories no-scrollbar py-2 mb-0 text-start">
+								<li class="category-nav-element" data-id="1">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Women Clothing & Fashion</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Hot Categories</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Party Dress</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Beauty & Health</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Women shoe</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Sleeping Dress</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Casual Dress</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Hoodies & Sweatshirts</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Jackets</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">T-shirts</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Shirts</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Wedding & events</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Wedding & events</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="2">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-1.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Men Clothing & Fashion</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Outwear & jackets</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Genuine Leather</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Suit & Blazer</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wool & Blends</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Underwear & Loungewear Accessories</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Wedding & events</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="3">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-2.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Computer & Accessories</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Laptop & Accessories</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Notebook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Netbook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Laptop Battery</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Gaming pc</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming casing</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Brand PC</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">GPU</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Components & Peripherals</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Processor</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="4">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-3.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Automobile & Motorcycle</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Racing car</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Notebook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Netbook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Laptop Battery</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Four Seater sedan</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming casing</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Brand PC</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">GPU</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Motor bike</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Processor</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="5">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-4.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Kids & toy</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Baby Clothing</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Baby Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Baby rompers</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Baby pants</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Baby outwear</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Jeans</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Hoodies & Sweatshirts</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Jackets</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">T-shirts</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Shirts</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Girls Clothing</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Wedding & events</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="6">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-5.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Sports & outdoor</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Swimming</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bikini set</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Suit & Blazer</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wool & Blends</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Cycling</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Wedding & events</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="7">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-6.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Jewelry & Watches</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Laptop & Accessories</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Notebook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Netbook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Laptop Battery</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Gaming pc</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming casing</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Brand PC</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">GPU</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Components & Peripherals</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Processor</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="8">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-7.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Cellphones & Tabs</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Racing car</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Notebook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Netbook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Laptop Battery</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Four Seater sedan</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming casing</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Brand PC</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">GPU</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Motor bike</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Processor</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="9">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-8.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Beauty, Health & Hair</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Outwear & jackets</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Genuine Leather</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Suit & Blazer</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wool & Blends</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Underwear & Loungewear Accessories</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Wedding & events</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Wedding Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Evening Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="10">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-9.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Home Improvement & Tools</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Laptop & Accessories</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Notebook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Netbook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Laptop Battery</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Gaming pc</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming casing</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Brand PC</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">GPU</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Components & Peripherals</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Processor</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="category-nav-element" data-id="11">
+									<a href="#" class="text-truncate text-reset py-2 px-3 d-block">
+										<img src="image/cg-10.jpg" class="cat-image me-2 opacity-60 ls-is-cached lazyloaded" width="16">
+										<span class="cat-name">Home decoration & Appliance</span>
+									</a>
+									<div class="sub-cat-menu c-scrollbar-light rounded shadow-lg p-4 loaded">
+										<div class="card-columns d-flex justify-content-between">
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Racing car</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Notebook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Netbook</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Laptop Battery</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Four Seater sedan</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming casing</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Brand PC</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Gaming Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">GPU</a>
+													</li>
+												</ul>
+											</div>
+											<div class="card shadow-none border-0">
+												<ul class="list-unstyled mb-3">
+													<li class="fw-600 border-bottom pb-2 mb-3">
+														<a href="#" class="text-reset">Motor bike</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Processor</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Motherboard</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Prom Dresses</a>
+													</li>
+													<li class="mb-2">
+														<a href="#" class="text-reset">Bridesmaid Dresses</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- banner Categories list end -->
+					<!-- banner categorie caruosel start -->
+					<div class="col-lg-7">
+						<div class="aiz-carousel dots-inside-bottom">
+							<div class="">
+								<img src="image/banner.jpg" class="img-fluid">
+							</div>
+							<div class="">
+								<img src="image/banner-1.jpg" class="img-fluid">
+							</div>
+							<div class="">
+								<img src="image/banner-2.jpg" class="img-fluid">
+							</div>
+							<div class="">
+								<img src="image/banner-3.jpg" class="img-fluid">
+							</div>
+						</div>
+						<ul class="list-unstyled mb-0 row gutters-5">
+							<li class="minw-0 col-4 col-md mt-3">
+								<a href="#" class="d-block rounded bg-white p-2 text-reset shadow-sm">
+									<img src="image/placeholder-rect.jpg" class="img-fit" height="78">
+									<div class="text-truncate fs-12 fw-600 mt-2 opacity-70">Sports & outdoor</div>
+								</a>
+							</li>
+							<li class="minw-0 col-4 col-md mt-3">
+								<a href="#" class="d-block rounded bg-white p-2 text-reset shadow-sm">
+									<img src="image/placeholder-rect-1.jpg" class="img-fit" height="78">
+									<div class="text-truncate fs-12 fw-600 mt-2 opacity-70">Mobile Phones</div>
+								</a>
+							</li>
+							<li class="minw-0 col-4 col-md mt-3">
+								<a href="#" class="d-block rounded bg-white p-2 text-reset shadow-sm">
+									<img src="image/placeholder-rect-2.jpg" class="img-fit" height="78">
+									<div class="text-truncate fs-12 fw-600 mt-2 opacity-70">Women Watch</div>
+								</a>
+							</li>
+							<li class="minw-0 col-4 col-md mt-3">
+								<a href="#" class="d-block rounded bg-white p-2 text-reset shadow-sm">
+									<img src="image/placeholder-rect-7.jpg" class="img-fit" height="78">
+									<div class="text-truncate fs-12 fw-600 mt-2 opacity-70">Women Dress</div>
+								</a>
+							</li>
+							<li class="minw-0 col-4 col-md mt-3">
+								<a href="#" class="d-block rounded bg-white p-2 text-reset shadow-sm">
+									<img src="image/placeholder-rect-3.jpg" class="img-fit" height="78">
+									<div class="text-truncate fs-12 fw-600 mt-2 opacity-70">Baby Dress</div>
+								</a>
+							</li>
+							<li class="minw-0 col-4 col-md mt-3">
+								<a href="#" class="d-block rounded bg-white p-2 text-reset shadow-sm">
+									<img src="image/placeholder-rect-4.jpg" class="img-fit" height="78">
+									<div class="text-truncate fs-12 fw-600 mt-2 opacity-70">Men Formal Dress</div>
+								</a>
+							</li>
+							<li class="minw-0 col-4 col-md mt-3">
+								<a href="#" class="d-block rounded bg-white p-2 text-reset shadow-sm">
+									<img src="image/placeholder-rect-5.jpg" class="img-fit" height="78">
+									<div class="text-truncate fs-12 fw-600 mt-2 opacity-70">Doll</div>
+								</a>
+							</li>
+							<li class="minw-0 col-4 col-md mt-3">
+								<a href="#" class="d-block rounded bg-white p-2 text-reset shadow-sm">
+									<img src="image/placeholder-rect-6.jpg" class="img-fit" height="78">
+									<div class="text-truncate fs-12 fw-600 mt-2 opacity-70">Tools</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- banner categorie caruosel end -->
+					<div class="col-lg-2 order-3 mt-3 mt-lg-0">
+						<div class="bg-white rounded shadow-sm">
+							<div class="bg-soft-primary rounded-top p-3 d-flex align-items-center justify-content-center">
+								<span class="fw-600 fs-16 me-2 text-truncate">Todays Deal</span>
+								<span class="badge badge-primary badge-inline">Hot</span>
+							</div>
+							<div class="c-scrollbar-light overflow-auto h-423px p-2 bg-primary rounded-bottom">
+								<div class="mb-2">
+									<a href="#" class="d-block p-2 text-reset bg-white rounded">
+										<div class="d-flex align-items-center">
+											<div class="img">
+												<img src="image/placeholder.jpg" class="img-fit h-80px lazyloaded">
+												<span class="d-block text-primary fw-600 fs-16">$35.000</span>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="mb-2">
+									<a href="#" class="d-block p-2 text-reset bg-white rounded">
+										<div class="d-flex align-items-center">
+											<div class="img">
+												<img src="image/placeholder-1.jpg" class="img-fit h-80px lazyloaded">
+												<span class="d-block text-primary fw-600 fs-16">$25.000</span>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="mb-2">
+									<a href="#" class="d-block p-2 text-reset bg-white rounded">
+										<div class="d-flex align-items-center">
+											<div class="img">
+												<img src="image/placeholder-2.jpg" class="img-fit h-80px lazyloaded">
+												<span class="d-block text-primary fw-600 fs-16">$50.000</span>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="mb-2">
+									<a href="#" class="d-block p-2 text-reset bg-white rounded">
+										<div class="d-flex align-items-center">
+											<div class="img">
+												<img src="image/placeholder-3.jpg" class="img-fit h-80px lazyloaded">
+												<span class="d-block text-primary fw-600 fs-16">$1,200.000</span>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="mb-2">
+									<a href="#" class="d-block p-2 text-reset bg-white rounded">
+										<div class="d-flex align-items-center">
+											<div class="img">
+												<img src="image/placeholder-4.jpg" class="img-fit h-80px lazyloaded">
+												<span class="d-block text-primary fw-600 fs-16">$140.000</span>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- home banner end -->
+		<div class="mb-4">
+			<div class="container">
+				<div class="row gutters-10">
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img-1.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img-2.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="mb-4">
+			<div class="container">
+				<div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
+					<div class="d-flex flex-wrap mb-3 align-items-baseline border-bottom">
+						<h3 class="h5 fw-700 mb-0">
+							<span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Flash Sale</span>
+						</h3>
+						<div id="aiz-count-down" class="ms-3"></div>
+						<a href="#" class="ms-auto me-0 btn btn-primary btn-soft-primary btn-sm shadow-md w-auto">View More</a>
+					</div>
+					<div class="product-carousel gutters-10 half-outside-arrow">
+						<div class="">
+							<div class="carousel-box">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-1.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$40.000</del>
+											<span class="fw-700 text-primary">$36.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Adidas Women's Cotton Jogger Set</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">200</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$20.000</del>
+											<span class="fw-700 text-primary">$18.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Adidas Team Force Deodorant Body Spray For Men</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">100</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-2.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$100.000</del>
+											<span class="fw-700 text-primary">$90.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Motherhood Maternity Women's Maternity Lace Trim Nursing Nightgown</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">500</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-3.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$120.000</del>
+											<span class="fw-700 text-primary">$108.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">600</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-4.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$140.000</del>
+											<span class="fw-700 text-primary">$126.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Women's Full Slips Cami Long Spaghetti Strap Under Dress</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">700</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-5.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$50.000</del>
+											<span class="fw-700 text-primary">$45.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Men Slim Fit Checkered Spread Collar Casual Shirt</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">250</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-6.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$50.000</del>
+											<span class="fw-700 text-primary">$45.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">250</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-7.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$20.000</del>
+											<span class="fw-700 text-primary">$18.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star active"></i>
+											<i class="fa fa-star active"></i>
+											<i class="fa fa-star active"></i>
+											<i class="fa fa-star active"></i>
+											<i class="fa fa-star active"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Adidas Team Force Deodorant Body Spray For Men</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">100</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-8.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$100.000</del>
+											<span class="fw-700 text-primary">$90.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star active"></i>
+											<i class="fa fa-star active"></i>
+											<i class="fa fa-star active"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Motherhood Maternity Women's Maternity Lace Trim Nursing Nightgown</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">500</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-9.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$120.000</del>
+											<span class="fw-700 text-primary">$108.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">600</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-10.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$140.000</del>
+											<span class="fw-700 text-primary">$126.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Women's Full Slips Cami Long Spaghetti Strap Under Dress</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">700</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-11.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$50.000</del>
+											<span class="fw-700 text-primary">$45.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Men Slim Fit Checkered Spread Collar Casual Shirt</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">250</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="">
+							<div class="carousel-box ">
+								<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="position-relative">
+										<a href="#" class="d-block">
+											<img src="image/card-12.jpg" class="img-fit mx-auto h-210px lazyloaded">
+										</a>
+										<div class="absolute-top-right aiz-p-hov-icon">
+											<a href="#" class="">
+												<i class="fa fa-heart-o"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-refresh"></i>
+											</a>
+											<a href="#" class="">
+												<i class="fa fa-shopping-cart"></i>
+											</a>
+										</div>
+									</div>
+									<div class="p-3 text-left">
+										<div class="fs-15">
+											<del class="fw-600 opacity-50 me-1">$50.000</del>
+											<span class="fw-700 text-primary">$45.000</span>
+										</div>
+										<div class="rating rating-sm mt-1">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+											<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+										</h3>
+										<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+											Club Point:
+											<span class="fw-700 float-end">250</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div id="sectio_featured">
+			<section class="mb-4">
+				<div class="container">
+					<div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
+						<div class="d-flex flex-wrap mb-3 align-items-baseline border-bottom">
+							<h3 class="h5 fw-700 mb-0">
+								<span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Featured Products</span>
+							</h3>
+						</div>
+						<div class="sectio-featured gutters-10 half-outside-arrow">
+							<div class="">
+								<div class="carousel-box">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-13.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$30.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Men's One and Only Textured Short Sleeve Button Up</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">0</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-14.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$50.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Gopune Men's Athletic Tracksuit Full Zip Warm Jogging Sweat Suits</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">0</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-15.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$25.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Udalyn Rhinestone Bridesmaid Jewelry Sets for Women</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">0</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-16.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$190.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Men's Machine Stainless Steel Quartz Chronograph Watch</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">0</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-17.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$550.000</del>
+												<span class="fw-700 text-primary">$495.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">AirPods Max</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">2750</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-18.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$52.000</del>
+												<span class="fw-700 text-primary">$46.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Animal Print Boys Track Suit</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">260</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-19.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$50.000</del>
+												<span class="fw-700 text-primary">$45.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">250</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-7.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$20.000</del>
+												<span class="fw-700 text-primary">$18.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Adidas Team Force Deodorant Body Spray For Men</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-8.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$100.000</del>
+												<span class="fw-700 text-primary">$90.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Motherhood Maternity Women's Maternity Lace Trim Nursing Nightgown</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">500</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-9.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$120.000</del>
+												<span class="fw-700 text-primary">$108.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">600</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-10.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$140.000</del>
+												<span class="fw-700 text-primary">$126.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Women's Full Slips Cami Long Spaghetti Strap Under Dress</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">700</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-11.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$50.000</del>
+												<span class="fw-700 text-primary">$45.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Men Slim Fit Checkered Spread Collar Casual Shirt</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">250</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-12.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$50.000</del>
+												<span class="fw-700 text-primary">$45.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">250</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div id="section_best_selling">
+			<section class="mb-4">
+				<div class="container">
+					<div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
+						<div class="d-flex flex-wrap mb-3 align-items-baseline border-bottom">
+							<h3 class="h5 fw-700 mb-0">
+								<span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Best Selling</span>
+							</h3>
+							<a href="#" class="ms-auto me-0 btn btn-primary btn-soft-primary btn-sm shadow-md w-auto">Top 20</a>
+						</div>
+						<div class="best-selling gutters-10 half-outside-arrow">
+							<div class="">
+								<div class="carousel-box">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-20.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$200.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">HP Stream 14-inch Laptop, Intel Celeron N4000, 4 GB RAM, 64 GB eMMC, Windows 10 Home in S Mode with Office 365 Personal</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">1000</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-21.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$600.000</del>
+												<span class="fw-700 text-primary">$540.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Analog Black Dial Men's Watch-32-BK-CK</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">0</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-22.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$35.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Udalyn Rhinestone Bridesmaid Jewelry Sets for Women</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">0</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-23.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$190.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Men's Machine Stainless Steel Quartz Chronograph Watch</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">700</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-17.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$550.000</del>
+												<span class="fw-700 text-primary">$495.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">AirPods Max</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">2750</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-18.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$52.000</del>
+												<span class="fw-700 text-primary">$46.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Animal Print Boys Track Suit</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">260</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-19.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$50.000</del>
+												<span class="fw-700 text-primary">$45.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">250</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-7.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$20.000</del>
+												<span class="fw-700 text-primary">$18.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Adidas Team Force Deodorant Body Spray For Men</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-8.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$100.000</del>
+												<span class="fw-700 text-primary">$90.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Motherhood Maternity Women's Maternity Lace Trim Nursing Nightgown</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">500</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-9.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$120.000</del>
+												<span class="fw-700 text-primary">$108.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">600</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-10.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$140.000</del>
+												<span class="fw-700 text-primary">$126.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Women's Full Slips Cami Long Spaghetti Strap Under Dress</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">700</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-11.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$50.000</del>
+												<span class="fw-700 text-primary">$45.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Men Slim Fit Checkered Spread Collar Casual Shirt</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">250</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box ">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-12.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-right aiz-p-hov-icon">
+												<a href="#" class="">
+													<i class="fa fa-heart-o"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-refresh"></i>
+												</a>
+												<a href="#" class="">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<del class="fw-600 opacity-50 me-1">$50.000</del>
+												<span class="fw-700 text-primary">$45.000</span>
+											</div>
+											<div class="rating rating-sm mt-1">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Bearsland Maternity Women's 3 Pieces Soft Nursing Pajamas Set Postpartum Sleepwear for Breastfeeding</a>
+											</h3>
+											<div class="rounded px-2 mt-2 bg-soft-primary border-soft-primary border">
+												Club Point:
+												<span class="fw-700 float-end">250</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="mb-4">
+			<div class="container">
+				<div class="row gutters-10">
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img-3.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img-4.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img-5.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="classified_ads">
+			<section class="mb-4">
+				<div class="container">
+					<div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
+						<div class="d-flex flex-wrap mb-3 align-items-baseline border-bottom">
+							<h3 class="h5 fw-700 mb-0">
+								<span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Classified Ads</span>
+							</h3>
+							<a href="#" class="ms-auto me-0 btn btn-primary btn-soft-primary btn-sm shadow-md w-auto">View More</a>
+						</div>
+						<div class="classified-ads gutters-10 half-outside-arrow">
+							<div class="">
+								<div class="carousel-box">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-30.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-left pt-2 ps-2">
+												<span class="badge badge-inline badge-success">New</span>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$52.000</span>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">HP Stream 14-inch Laptop, Intel Celeron N4000, 4 GB RAM, 64 GB eMMC, Windows 10 Home in S Mode with Office 365 Personal</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-31.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-left pt-2 ps-2">
+												<span class="badge badge-inline badge-danger">Used</span>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$320.000</span>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Sony Bravia 108 cm (43 inches) Full HD Smart LED TV KDL</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-32.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-left pt-2 ps-2">
+												<span class="badge badge-inline badge-success">New</span>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$90.000</span>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Sony HT-S20R 5.1ch Dolby Digital Soundbar</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-33.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-left pt-2 ps-2">
+												<span class="badge badge-inline badge-success">New</span>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$30.000</span>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Mi Smart Router 4C, 300 Mbps with 4 high-Performance Antenna & App Control</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-34.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-left pt-2 ps-2">
+												<span class="badge badge-inline badge-danger">Used</span>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$80.000</span>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Canon Pixma TS3320 Black, Works with Alexa</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="carousel-box">
+									<div class="aiz-card-box border border-light rounded hov-shadow-md my-2 has-transition">
+										<div class="position-relative">
+											<a href="#" class="d-block">
+												<img src="image/card-35.jpg" class="img-fit mx-auto h-210px lazyloaded">
+											</a>
+											<div class="absolute-top-left pt-2 ps-2">
+												<span class="badge badge-inline badge-danger">Used</span>
+											</div>
+										</div>
+										<div class="p-3 text-left">
+											<div class="fs-15">
+												<span class="fw-700 text-primary">$120.000</span>
+											</div>
+											<h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
+												<a href="#" class="d-block text-reset">Apple Watch Series 6 (GPS, 40mm) - Gold Aluminum Case with Pink Sand Sport Band</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="mb-4">
+			<div class="container">
+				<div class="row gutters-10">
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img-6.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img-7.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+					<div class="col-xl col-md-6">
+						<a href="#" class="d-block text-reset">
+							<img src="image/img-8.jpg" class="img-fluid lazyloaded">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="best_sellers">
+			<section class="mb-4">
+				<div class="container">
+					<div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
+						<div class="d-flex flex-wrap mb-3 align-items-baseline border-bottom">
+							<h3 class="h5 fw-700 mb-0">
+								<span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Best Sellers</span>
+							</h3>
+							<a href="#" class="ms-auto me-0 btn btn-primary btn-soft-primary btn-sm shadow-md w-auto">View All Sellers</a>
+						</div>
+						<div class="best-sellers gutters-10 half-outside-arrow">
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">Zara Fashion</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-1.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">BMW</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-2.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">Royal Enfield</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-3.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">Apple</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-4.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">Jhonson</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-5.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">Philipps</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-6.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">Mark And Spenser</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-7.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">Babyhug</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+												<i class="fa fa-star active"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-8.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">Adidas</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-box">
+								<div class="row gx-0 align-items-center border border-light rounded hov-shadow-md my-2 has-transition">
+									<div class="col-4">
+										<a href="#" class="p-3 d-block">
+											<img src="image/best-9.jpg" class="img-fluid">
+										</a>
+									</div>
+									<div class="col-8 border-start border-light">
+										<div class="p-3 text-start">
+											<h2 class="h6 fw-600 text-truncate">
+												<a href="#" class="text-reset">LOUIS VUITTON</a>
+											</h2>
+											<div class="rating rating-sm mb-2">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<a href="#" class="btn btn-soft-primary btn-sm">
+												Visit Store 
+												<i class="fa fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section class="mb-4">
+			<div class="container">
+				<div class="row gutters-10">
+					<div class="col-lg-6">
+						<div class="d-flex mb-3 align-items-baseline border-bottom">
+							<h3 class="h5 fw-700 mb-0">
+								<span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Top 10 Categories</span>
+							</h3>
+							<a href="#" class="ms-auto me-0 btn btn-primary btn-soft-primary btn-sm shadow-md">View All Categories</a>
+						</div>
+						<div class="row gutters-5">
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Women Clothing & Fashion</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-1.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Men Clothing & Fashion</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-2.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Computer & Accessories</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-3.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Automobile & Motorcycle</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-4.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Kids & toy</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-5.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Sports & outdoor</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-6.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Jewelry & Watches</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-7.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Beauty, Health & Hair</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-8.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Home Improvement & Tools</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/top-9.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Home decoration & Appliance</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="d-flex mb-3 align-items-baseline border-bottom">
+							<h3 class="h5 fw-700 mb-0">
+								<span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Top 10 Brands</span>
+							</h3>
+							<a href="#" class="ms-auto me-0 btn btn-primary btn-soft-primary btn-sm shadow-md">View All Categories</a>
+						</div>
+						<div class="row gutters-5">
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand1.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Ford</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand2.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Chevrolet</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand3.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Audi</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand4.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Hyundai</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand5.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Nissan</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand6.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">BMW</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand7.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Mercedes-Benz</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand8.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">Toyota</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand9.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">JLO</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2">
+									<div class="row align-items-center gx-0">
+										<div class="col-3 text-center">
+											<img src="image/brand10.jpg" class="img-fluid img h-60px">
+										</div>
+										<div class="col-7">
+											<div class="ps-3 fs-14 fw-600 text-start">En'or</div>
+										</div>
+										<div class="col-2 text-center">
+											<i class="fa fa-angle-right text-primary"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-white border-top">
+			<div class="container">
+				 <div class="row gx-0">
+				 	<div class="col-lg-3 col-md-6">
+				 		<a href="#" class="text-reset border-start text-center p-4 d-block">
+				 			<i class="fa fa-file-text fa-3x mb-2 text-primary"></i>
+				 			<h6>Terms & conditions</h6>
+				 		</a>
+				 	</div>
+				 	<div class="col-lg-3 col-md-6">
+				 		<a href="#" class="text-reset border-start text-center p-4 d-block">
+				 			<i class="fa fa-mail-reply fa-3x mb-2 text-primary"></i>
+				 			<h6>Return Policy</h6>
+				 		</a>
+				 	</div>
+				 	<div class="col-lg-3 col-md-6">
+				 		<a href="#" class="text-reset border-start text-center p-4 d-block">
+				 			<i class="fa fa-support fa-3x mb-2 text-primary"></i>
+				 			<h6>Support Policy</h6>
+				 		</a>
+				 	</div>
+				 	<div class="col-lg-3 col-md-6">
+				 		<a href="#" class="text-reset border-start text-center p-4 d-block">
+				 			<i class="fa fa-exclamation-circle fa-3x mb-2 text-primary"></i>
+				 			<h6>Privacy Policy</h6>
+				 		</a>
+				 	</div>
+				 </div>
+			</div>
+		</section>
+		<section class="footer-widget bg-dark py-5 text-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-xl-4 text-center text-md-start">
+						<div class="mb-4">
+							<a href="#" class="d-block">
+								<img src="image/footer-logo.png" height="44">
+							</a>
+							<div class="my-3"><span>Complete system for your eCommerce business</span></div>
+							<form class="form-inline d-flex align-items-center">
+								<div class="form-group mb-0">
+									<input class="form-control" type="email" name="email" placeholder="Your Email Address">
+								</div>
+								<button type="submit" class="btn btn-primary btn-soft-primary">Subscribe</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-3 ms-xl-auto col-md-4 me-0">
+						<div class="text-center text-md-start mt-4">
+							<h4 class="fs-13 text-uppercase fw-600 border-bottom border-gray-900 pb-2 mb-4">Contact Info</h4>
+							<ul class="list-unstyled">
+								<li class="mb-2">
+									<span class="d-block opacity-30">Address:</span>
+									<span class="d-block opacity-70">Demo</span>
+								</li>
+								<li class="mb-2">
+									<span class="d-block opacity-30">Phone:</span>
+									<span class="d-block opacity-70">123456789</span>
+								</li>
+								<li class="mb-2">
+									<span class="d-block opacity-30">Email:</span>
+									<span class="d-block opacity-70">
+										<a href="#" class="text-reset">demo.example@gmail.com</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4">
+						<div class="text-center text-md-start mt-4">
+							<h4 class="fs-13 text-uppercase fw-600 border-bottom border-gray-900 pb-2 mb-4">Quick Links</h4>
+							<ul class="list-unstyled">
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">Help</a>
+								</li>
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">Support</a>
+								</li>
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">About Us</a>
+								</li>
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">Join Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-2">
+						<div class="text-center text-md-start mt-4">
+							<h4 class="fs-13 text-uppercase fw-600 border-bottom border-gray-900 pb-2 mb-4">My Account</h4>
+							<ul class="list-unstyled">
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">Login</a>
+								</li>
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">Order History</a>
+								</li>
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">My Wishlist</a>
+								</li>
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">Track Order</a>
+								</li>
+								<li class="mb-2">
+									<a href="#" class="opacity-50 hov-opacity-100 text-reset">Be an affiliate partner</a>
+								</li>
+							</ul>
+						</div>
+						<div class="text-center text-md-start mt-4">
+							<h4 class="fs-13 text-uppercase fw-600 border-bottom border-gray-900 pb-2 mb-4">Be a Seller</h4>
+							<a href="#" class="btn btn-primary btn-sm shadow-md btn-soft-primary">Apply Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="pt-3 pb-7 pb-xl-3 bg-black text-light">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-4">
+						<div class="text-center text-md-start">© Active eCommerce CMS 2021</div>
+					</div>
+					<div class="col-lg-4">
+						<ul class="list-inline my-3 my-md-0 social text-center">
+							<li class="list-inline-item">
+								<a href="#" class="facebook"><i class="fa fa-facebook-f text-light"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#" class="twitter"><i class="fa fa-twitter text-light"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#" class="instagram"><i class="fa fa-instagram text-light"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#" class="youtube"><i class="fa fa-youtube text-light"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#" class="linkedin"><i class="fa fa-linkedin text-light"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-4">
+						<div class="text-center text-md-end">
+							<ul class="list-inline mb-0">
+								<li class="list-inline-item">
+									<img src="image/footer-1.png" class="mw-100 h-auto" style="max-height: 30px">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+	<!-- aiz-main-wrapper-end -->
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="aiz-count-down"
+  document.getElementById("aiz-count-down").innerHTML = "<span class='bg-primary p-1 text-white rounded-2 me-1'>" + days + "</span>: <span class='m-1 bg-primary p-1 text-white rounded-2'>" + hours + "</span>: <span class='m-1 bg-primary p-1 text-white rounded-2'>"
+  + minutes + "</span>: <span class='m-1 bg-primary p-1 text-white rounded-2'>" + seconds + "</span> ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("aiz-count-down").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+
+				<!-- jQuery JS -->
+	    <script src="js/jquery-3.6.0.min.js"></script>
+	    	<!-- Venobox Js   -->
+   		<script src="js/venobox.min.js"></script>
+	    	<!-- Popper  JS -->
+    	<script type="text/javascript" src="js/popper.min.js"></script>
+    		<!-- Bootstrap Js -->
+    	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    		<!-- Waypoints Js -->
+    	<script src="js/jquery.waypoints.min.js"></script>
+            <!-- Counterup Js -->
+        <script src="js/jquery.counterup.min.js"></script>
+    		<!-- Slick Slider Js -->
+    	<script type="text/javascript" src="js/slick.min.js"></script>
+	    	<!-- Smooth Scroll Js -->
+    	<script src="js/smooth-scroll.polyfills.min.js"></script>
+    		<!-- Chart -->
+    	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    		<!-- Main js -->
+    	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
